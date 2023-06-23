@@ -1,4 +1,4 @@
-import classes from './Header.module.css';
+import classes from './Header.module.scss';
 import logo from './Mars_2020_NASA_insignia.png';
 
 function Header() {

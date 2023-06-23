@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import classes from './Content.module.css';
+import classes from './Content.module.scss';
 
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from '@react-three/drei';

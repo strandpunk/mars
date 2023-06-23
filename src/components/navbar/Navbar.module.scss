@@ -1,0 +1,30 @@
+@import './src/variables.scss';
+
+.navbar {
+    grid-area: n;
+    background-color: #336;
+
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 25px;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: lightcyan;
+
+    @include laptop {margin: 2em;}
+}
+
+a {
+    color: white;
+}

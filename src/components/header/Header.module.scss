@@ -1,3 +1,5 @@
+@import './src/variables.scss';
+
 .header {
     grid-area: h;
     background-color: #336;
@@ -19,6 +21,12 @@
 img {
     width: 4em;
     height: 4em;
+
+    @include laptop {
+        width: 2em;
+        height: 2em;
+    }
+
 }
 
 

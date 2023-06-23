@@ -1,0 +1,30 @@
+//@import './variables.scss';
+
+$sm: 480px;
+$md: 720px;
+$lg: 1280px;
+$xl: 1900px;
+
+@mixin mobile {
+    @media only screen and (max-width: $sm) {
+        @content;
+    }
+}
+
+@mixin mobile-large {
+    @media only screen and (max-width: $md) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media only screen and (max-width: $lg) {
+        @content;
+    }
+}
+
+@mixin desctop {
+    @media only screen and (max-width: $xm) {
+        @content;
+    }
+}

@@ -3,7 +3,7 @@ import Content from '../content/Content';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import Nav from '../navbar/Navbar';
-import classes from './AppWrapper.module.css';
+import classes from './AppWrapper.module.scss';
 
 import img01 from './01.jpg';
 import img02 from './02.jpg';

@@ -1,4 +1,4 @@
-import classes from './carousel.module.css'
+import classes from './carousel.module.scss'
 import React, { useEffect, useState } from "react";
 
 const Carousel = (props) => {
