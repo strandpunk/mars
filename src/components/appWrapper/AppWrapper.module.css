@@ -1,0 +1,25 @@
+.appwrapper{
+    display: grid;
+
+    grid-template-areas: "h h h"
+                         "c c c"
+                         "n m m"
+                         "f f f";
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 0.5fr 720px 3fr 0.5fr;
+}
+
+@media (max-width: 1250px) {
+    .appwrapper{
+        height: 100vh;
+        display: grid;
+    
+        grid-template-areas: "h h h"
+                             "c c c"
+                             "n n n"
+                             "m m m"
+                             "f f f";
+        grid-template-columns: 1fr 8fr;
+        grid-template-rows: 1fr 360px 1fr 6fr 1fr;
+    }
+  }

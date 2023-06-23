@@ -1,0 +1,32 @@
+.footer {
+    grid-area: f;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #336;
+    color: white;
+
+    font-size: 3vh;
+    padding: 2em;
+}
+
+@media (max-width: 1250px) {
+    .footer {
+        grid-area: f;
+        background-color: #336;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+
+        font-size: 3vh;
+
+        padding: 2em;
+    }
+}

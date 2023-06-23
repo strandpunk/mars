@@ -1,0 +1,35 @@
+.content {
+    grid-area: m;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2em;
+
+}
+
+.canvSize {
+    width: 1200px;
+    height: 500px;
+
+    border: 2px solid white;
+
+}
+
+@media (max-width: 1250px) {
+    .canvSize {
+        width: 950px;
+        height: 500px;
+    
+        border: 2px solid white;
+    
+    }
+}
+
+p {
+    line-height: 2em;
+}
+
