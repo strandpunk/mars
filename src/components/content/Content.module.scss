@@ -1,3 +1,6 @@
+@import './src/variables.scss';
+
+
 .content {
     grid-area: m;
     background-color: black;
@@ -17,17 +20,18 @@
 
     border: 2px solid white;
 
-}
-
-@media (max-width: 1250px) {
-    .canvSize {
+    @include laptop {
         width: 950px;
         height: 500px;
-    
-        border: 2px solid white;
-    
     }
+
+    @include mobile-large {
+        width: 650px;
+        height: 500px;
+    }
+
 }
+
 
 p {
     line-height: 2em;
